@@ -1,0 +1,22 @@
+Information for pair0102:
+
+position vs. passing time
+
+pair0102, pair0103, pair0104 are taken from the same run of an experiment at a ball track for children at which some sensors have been mounted to measure the following parameters:
+
+variable 1: position on the ball track where the ball starts
+variable 2: time interval between passing the first and the second light barrier.
+variable 3: time interval between passing the third and the fourth light barrier.
+
+The initial part of the track ("acceleration zone")
+has large slope, therefore the initial position is decisive for the speed the ball  gets when it rolls downwards. Therefore and because of the order of the light barriers we have the following causal chain:
+
+variable 1 ---> variable 2 --> variable 3 
+
+here we have x= variable 1, y= variable 2
+
+The data has been measured by D. Janzing in August 2016. 
+
+
+ground truth x --> y
+

@@ -1,0 +1,37 @@
+Information for pairs0017:
+
+Census Income (KDD) dataset
+https://archive.ics.uci.edu/ml/datasets/Census-Income+(KDD)
+
+Info from the UCI ML webpage:
+
+"This data set contains weighted census data extracted from the 1994 and 1995
+current population surveys conducted by the U.S. Census Bureau.
+
+Original Owner:
+
+U.S. Census Bureau
+http://www.census.gov/
+United States Department of Commerce
+
+Donor:
+
+Terran Lane and Ronny Kohavi
+Data Mining and Visualization
+Silicon Graphics.
+terran '@' ecn.purdue.edu, ronnyk '@' sgi.com 
+
+The instance weight indicates the number of people in the population that each
+record represents due to stratified sampling. To do real analysis and derive
+conclusions, this field must be used. This attribute should *not* be used in
+the classifiers."
+
+We did not use the instance weight here.
+
+x: Age 
+
+y: Dividends from stock
+
+
+ground truth:
+x --> y

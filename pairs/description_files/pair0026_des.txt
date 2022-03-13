@@ -1,0 +1,51 @@
+Information for pairs0026:
+
+Concrete Compressive Strength 
+
+---------------------------------
+
+Abstract: Concrete is the most important material in civil engineering. The 
+concrete compressive strength is a highly nonlinear function of age and 
+ingredients. These ingredients include cement, blast furnace slag, fly ash, 
+water, superplasticizer, coarse aggregate, and fine aggregate.
+
+---------------------------------
+
+Sources: 
+
+  Original Owner and Donor
+  Prof. I-Cheng Yeh
+  Department of Information Management 
+  Chung-Hua University, 
+  Hsin Chu, Taiwan 30067, R.O.C.
+  e-mail:icyeh@chu.edu.tw
+  TEL:886-3-5186511
+
+  Date Donated: August 3, 2007
+ 
+---------------------------------
+
+Data Characteristics:
+    
+The actual concrete compressive strength (MPa) for a given mixture under a 
+specific age (days) was determined from laboratory. Data is in raw form (not scaled). 
+
+Number of instances (observations): 1030
+---------------------------------
+
+Name  -- Description
+
+Blast Furnace Slag -- kg in a m3 mixture 
+Concrete compressive strength -- MPa 
+
+
+x: blast furnace slag
+
+y: compressive strength
+
+
+ground truth:
+x --> y
+
+
+

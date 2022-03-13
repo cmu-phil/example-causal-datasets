@@ -1,0 +1,18 @@
+Information for pair0053:
+
+Environmental data
+
+x: 	Ozon concentration (microgramm/m^3)
+
+y: 	1) wind speed (m/s)
+	2) global radiation (W/m^2)
+	3) temperature
+
+
+Data source:
+Dietrich Stoyan, Helga Stoyan, and Uwe Jansen (1997): 
+Umwelstatistik: Statistische Verarbeitung und Analyse von Umweltdaten
+http://www.mathe.tu-freiberg.de/Stoyan/umwdat.html#Top
+
+ground truth:
+y --> x

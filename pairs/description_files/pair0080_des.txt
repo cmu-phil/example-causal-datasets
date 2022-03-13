@@ -1,0 +1,35 @@
+Information for pair0080:
+
+Light Response Data
+
+Taken at a flux tower at site DE-Hai
+latitude: 51.08?N
+longitude: 10.45?E
+
+The filtered version of the data is taken from:
+
+Moffat A.M. (2012) Assessing competing semi-empirical equations:
+Light response curve (Chapter 7). In: /A new methodology to interpret
+high resolution measurements of net carbon fluxes between terrestrial
+ecosystems and the atmosphere/. pp. 68-80. Doctoral thesis, Friedrich
+Schiller University, Jena.
+
+- Response of NEP on PPFDdir
+
+First column (x): NEP (Net Ecosystem Productivity)
+- a measure of the carbon flux
+- calculated by photosynthetic uptake MINUS release by respiration
+- is known to be driven by PPFDdif and PPFDdir
+- unit: [?mol/(m?s)]
+
+Second column (y): PPFDdir (Photosynthetic Photon Flux Density, direct)
+- a measure of direct solar light intensity in terms of photons, that are available for photosynthesis
+- i.e. the number of direct photons falling on a 1 meter square area per second
+- only the photons with a wavelength of 400-700nm (visible light) are available for photosynthesis
+- unit [?mol/(m?s)]
+PPFD(total) = PPFDdif + PPFDdir
+
+
+ground truth
+
+y --> x

@@ -1,0 +1,13 @@
+Information for pair0069:
+
+Timeseries data - Inside (room) and outside temperature
+
+X(t) - inside room temperature in degrees Celsius
+Y(t) - outside temperature in degrees Celsius
+
+Measurements were taken every 5 minutes.
+
+Data provided by Joris M. Mooij.
+
+Ground truth:
+y --> x

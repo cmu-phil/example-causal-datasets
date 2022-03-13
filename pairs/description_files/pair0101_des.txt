@@ -1,0 +1,20 @@
+Information for pair0101:
+
+Brightness of screen
+
+This is from an experiment that has been performed to generate an example of a cause-effect relation
+that is clearly unconfounded.
+
+First column (x): grey value of a pixel that is chosen randomly from a fixed image. The grey value
+is displayed by the color of a square on a computer screen
+
+Second column (y): light intensity seen by a photo diode placed several centimeters away from the screen.  
+
+More precisely, the light intensity is measured by the 
+Adafruit TSL2591 High Dynamic Range Digital Light Sensor connected to an Arduino microcontroler. 
+https://learn.adafruit.com/adafruit-tsl2591/wiring-and-test
+
+The measurement has been performed by D. Janzing in August 2016.
+
+ground truth x --> y
+

@@ -1,0 +1,11 @@
+x = Clay content in soil (in gram per g/kg)
+y = Soil moisture at 10cm depth (in %)
+
+Data taken from 150 forest plots. Plots with missing data were excluded.
+
+The clay content in a soil is one determinant of how much water a soil can hold.
+
+Reference:
+Solly et al (2014). Factors controlling decomposition rates of fine root litter in temperate forests and grasslands. Plant and Soil, 382(1-2), 203-218.
+
+x --> y

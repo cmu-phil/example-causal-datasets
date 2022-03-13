@@ -1,0 +1,15 @@
+Information for pair0073:
+
+Energy - emission data from 152 countries  between 1960 and 2005
+
+from UNdata (http://data.un.org)
+
+
+x: CO2 emissions for different countries in different years
+
+y: Energy use (kg of oil equivalent per capita) for different countries in different years
+
+
+
+ground truth:
+y --> x

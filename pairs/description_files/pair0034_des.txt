@@ -1,0 +1,32 @@
+Information for pairs0035:
+
+https://archive.ics.uci.edu/ml/datasets/Liver+Disorders
+
+Title: BUPA liver disorders
+
+2. Source information:
+   -- Creators: BUPA Medical Research Ltd.
+   -- Donor: Richard S. Forsyth
+             8 Grosvenor Avenue
+             Mapperley Park
+             Nottingham NG3 5DX
+             0602-621676
+   -- Date: 5/15/1990
+
+4. Relevant information:
+   -- The second variable is a blood test which is thought
+      to be sensitive to liver disorders that might arise from
+      excessive alcohol consumption.  Each line 
+      constitutes the record of a single male individual.
+
+x:    drinks	number of half-pint equivalents of alcoholic beverages
+                drunk per day
+
+
+y:    alkphos	alkaline phosphotase
+
+
+ground truth:
+x --> y
+
+

@@ -1,0 +1,15 @@
+Information for pair0064:
+
+UNdata from http://data.un.org
+
+
+x:	Population with sustainable access to improved drinking water sources (%) total, 2006
+
+y:	Infant mortality rate (per 1 000 live births) both sexes, 2006
+
+source:
+http://data.un.org/Data.aspx?d=WHO&f=inID%3aMBD10
+http://data.un.org/Data.aspx?d=WHO&f=inID%3aRF03
+
+ground truth:
+x --> y

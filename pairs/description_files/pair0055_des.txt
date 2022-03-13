@@ -1,0 +1,33 @@
+Information for pairs0055:
+
+Daily mean values of ozone values and radiation in the last 83 days of 2009 at 16 different places in Switzerland.
+11 days were deleted due to missing data.
+The different places are: 
+1 Bern-Bollwerk	
+2 Magadino-Cadenazzo	
+3 Lausanne-C/'esar-Roux	
+4 Payerne	
+5 Lugano-Universita	
+6 Taenikon	
+7 Zuerich-Kaserne	
+8 Laegeren	
+9 Basel-Binningen	
+10 Chaumont	
+11 Duebendorf	
+12 Rigi-Seebodenalp	
+13 Haerkingen	
+14 Davos-See	
+15 Sion-A/'eroport	
+16 Jungfraujoch
+
+
+x: Ozone (microgram / cubic meter)
+
+y: Temperature (degree celsius)
+
+source:
+Bundesamt fuer Umwelt (BAFU, Switzerland)
+www.bafu.admin.ch/luft/luftbelastung/blick_zurueck/datenabfrage/index.html?lang=de
+
+ground truth:
+y --> x

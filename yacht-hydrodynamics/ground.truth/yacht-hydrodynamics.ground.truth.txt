@@ -1,0 +1,11 @@
+/knowledge
+addtemporal
+
+1 len-beam prismatic froude
+2 cent-boy len-disp beam-draught
+3 res-resist
+
+forbiddirect
+
+requiredirect
+froude res-resist

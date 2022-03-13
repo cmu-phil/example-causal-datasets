@@ -1,0 +1,53 @@
+Information for pairs0039:
+
+Pima Indians Diabetes Database
+
+1. Sources:
+   (a) Original owners: National Institute of Diabetes and Digestive and
+                        Kidney Diseases
+   (b) Donor of database: Vincent Sigillito (vgs@aplcen.apl.jhu.edu)
+                          Research Center, RMI Group Leader
+                          Applied Physics Laboratory
+                          The Johns Hopkins University
+                          Johns Hopkins Road
+                          Laurel, MD 20707
+                          (301) 953-6231
+   (c) Date received: 9 May 1990
+
+2. Past Usage:
+    1. Smith,~J.~W., Everhart,~J.~E., Dickson,~W.~C., Knowler,~W.~C., \&
+       Johannes,~R.~S. (1988). Using the ADAP learning algorithm to forecast
+       the onset of diabetes mellitus.  In {\it Proceedings of the Symposium
+       on Computer Applications and Medical Care} (pp. 261--265).  IEEE
+       Computer Society Press.
+
+       The diagnostic, binary-valued variable investigated is whether the
+       patient shows signs of diabetes according to World Health Organization
+       criteria (i.e., if the 2 hour post-load plasma glucose was at least 
+       200 mg/dl at any survey  examination or if found during routine medical
+       care).   The population lives near Phoenix, Arizona, USA.
+
+3. Relevant Information:
+      Several constraints were placed on the selection of these instances from
+      a larger database.  In particular, all patients here are females at
+      least 21 years old of Pima Indian heritage.  
+
+4. Number of Instances: 768
+
+x: age
+
+y: 2-Hour serum insulin (mu U/ml)
+
+
+ground truth:
+x --> y
+
+
+UPDATE v1.0: We only kept the instances with nonzero value for serum insulin,
+because we believe these encode for missing values. From the UCI ML webpage:
+"UPDATE: Until 02/28/2011 the UCI ML web page indicated that there were no
+missing values in the dataset. As pointed out by a repository user, this cannot
+be true: there are zeros in places where they are biologically impossible, such
+as the blood pressure attribute. It seems very likely that zero values encode
+missing data. However, since the dataset donors made no such statement we
+encourage you to use your best judgement and state your assumptions."

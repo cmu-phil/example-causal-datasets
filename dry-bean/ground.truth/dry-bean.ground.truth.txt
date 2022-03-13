@@ -1,0 +1,9 @@
+/knowledge
+addtemporal
+
+1  Class
+2  Area AspectRation Compactness ConvexArea Eccentricity EquivDiameter Extent MajorAxisLength MinorAxisLength Perimeter ShapeFactor1 ShapeFactor2 ShapeFactor3 ShapeFactor4 Solidity roundness
+
+forbiddirect
+
+requiredirect

@@ -1,0 +1,15 @@
+Information for pair0045:
+
+Mean daily sea level pressure on a 144x73 grid (2.5 degree) of day 50 and day 51 of year 2000.
+
+x: year 2000, day 50
+y: year 2000, day 51
+
+units: Pascal
+
+Data source:
+http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.surface.html
+
+
+ground truth:
+x --> y

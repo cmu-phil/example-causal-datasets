@@ -1,0 +1,17 @@
+Information for pair0098
+
+initial and final speed of a ball on a ball track for children
+
+The data has been recorded by Dominik Janzing using a ball track that has been equipped with two pairs of light barriers. The first pair measures the initial speed
+ and the second pair the speed of a ball at some later position of the track. The units of the speeds are arbitrary and differ for both measurements (X and Y) since they are obtained by
+inverting the time the ball needed to pass the distance between two light barriers of one pair. 
+ 
+ The initial part of the track ("acceleration zone")
+has large slope. The initial speed is strongly determined by the exact position where the ball is put on the acceleration zone. For part of the runs, the position of the ball has been chosen by D. Janzing, the other part by a 4-year old child. This should avoid that the variation of the initial position is done in a too systematic way. 
+The setup is actually the same as for pair0097, but for pair0098 the ball track had a longer acceleration zone, which allows for larger deviations of the initial speed. 
+
+Ground truth
+
+x --> y
+ 
+

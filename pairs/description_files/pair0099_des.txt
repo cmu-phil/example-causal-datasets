@@ -1,0 +1,25 @@
+Dataset 'nlschools' from the R MASS package. 
+
+According to the description in the documentation of the package 
+(https://cran.r-project.org/web/packages/MASS/MASS.pdf ):
+
+"Snijders and Bosker (1999) use as a running example a study of 2287 eighth-grade pupils (aged
+about 11) in 132 classes in 131 schools in the Netherlands.
+
+Source:
+Snijders, T.A.B. and Bosker, R.J. (1999)
+'Multilevel Analysis. An Introduction to Basic and Advanced Multilevel Modelling.'
+London: Sage."
+
+We converted the data to a text file by the following R commands:
+
+library('MASS')
+write.matrix(nlschools,file='/tmp/nlschools.txt')
+
+X = the first column ('lang', language test score) 
+Y = the fifth column ('SES', social-economic status of pupil's family) column. 
+
+We consider SES to be one of the causes of lang, but note that selection bias may be
+present (via the choice of the classes and schools).
+
+Ground truth:  y --> x

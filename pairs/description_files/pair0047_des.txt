@@ -1,0 +1,14 @@
+Information for pair0047:
+
+Traffic
+
+x: number of cars per 24h at different counting stations in Oberschwaben, Germany
+y: categorical :
+	1 	 -> Sundays + holidays
+	2	 -> working days 
+
+Data source:
+http://www.b30-oberschwaben.de/html/tabelle.html
+
+ground truth:
+y --> x

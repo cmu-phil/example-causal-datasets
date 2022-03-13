@@ -1,0 +1,18 @@
+Information for pairs0019:
+
+Old Faithful geyser data
+
+Old Faithful is a hydrothermal geyser in Yellowstone National Park in the state of Wyoming, USA. 
+Each observation corresponds to a single erruption.
+
+x:    duration of erruption in minutes
+
+y:    time to the next erruption in minutes
+
+
+Source
+http://research.microsoft.com/en-us/um/people/cmbishop/PRML/webdatasets/datasets.htm
+
+
+ground truth:
+x --> y

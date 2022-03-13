@@ -1,0 +1,16 @@
+Information for pair 98
+ 
+natural logarithm of employment and natural logarithm of population 
+ 
+data for 3102 counties in US in 1980.  
+ 
+The data were taken from US county-level growth data set from Journal of Applied Econometrics web site.  Currently available at
+http://www.spatial-econometrics.com/data/contents.html .
+ 
+x (first column): the natural logarithm of employment in 1980 in 3102 counties in US;
+y (second column): the natural logorithm of the corresponding population.
+
+It seems reanable that the total population causes the employment, not vice versa. The difference (x-y) can be considered as the natural logarithm of the propotion of the emloyment.
+
+Ground truth:
+y --> x

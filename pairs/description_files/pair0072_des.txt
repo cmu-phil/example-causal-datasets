@@ -1,0 +1,18 @@
+Information for pair0072:
+
+sunspot data - timeseries with monthly values
+from 5/1874 - 4/2010 = 1632 values
+
+
+temperature data taken from 
+http://www.cru.uea.ac.uk/cru/data/temperature/
+
+sunspot data taken from
+http://solarscience.msfc.nasa.gov/SunspotCycle.shtml
+
+X = sunspot area
+
+Y = global mean temperature anomalies (deviations from 1961-1990) in °C
+
+ground truth:
+x --> y

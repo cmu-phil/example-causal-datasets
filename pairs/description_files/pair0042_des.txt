@@ -1,0 +1,15 @@
+Information for pairs0042:
+
+x (int): days of the year
+y (float): mean daily temperature of Furtwangen (Schwarzwald), Germany
+
+time range: 1/1/1979-31/1/2004
+
+data was computed as follows:
+
+(morning temperature + midday temperature + 2 * evening temperature) / 4
+
+source: Bernward Janzing, private archive
+
+ground truth:
+x --> y

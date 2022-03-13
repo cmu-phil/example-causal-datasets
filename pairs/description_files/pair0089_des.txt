@@ -1,0 +1,15 @@
+x = Mass loss OCTOBER 2012 in %
+y = Mass loss APRIL 2012 in %
+
+Fine root decomposition data. 150 Litterbags containing fine roots were put underground to
+study decomposition rates in different ecosystems. This data set contains all experiments done in forests.
+y denotes the mass loss 6 months after the start of the experiment.
+y denotes the mass loss 1 year after the start of the experiment.
+Plots with missing data were excluded.
+
+Data taken from
+Solly et al (2014). Factors controlling decomposition rates of fine root litter in temperate forests and grasslands. Plant and Soil, 382(1-2), 203-218.
+
+Common sense tells us that at a certain point in time the total material decomposed depends on the amount decomposed at an earlier point in time.
+
+y --> x

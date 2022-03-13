@@ -1,0 +1,26 @@
+Description of pair0085:
+
+This data set is extracted from that for the milk protein trial used by Verbyla and Cullis (1990).  The original data set consists of assayed protein content of milk samples taken weekly from each of 79 cows.  The cows were randomly allocated to one of three diets: barley, mixed barley-lupins, and lupins, with 25, 27, and 27 cows in the three groups, respectively.  Measurements were taken for up to 19 weeks, but there were 38 drop-outs from week 15 onwards, corresponding to cows who stopped producing milk before the end of the experiment.
+
+We removed the missing values (drop-outs) in the data set: we did not consider the measurements from week 15 onwards, which contain many drop-outs, and we discarded the cows with drop-outs before week 15.  Finally, the data set contains 71 cows and 14 weeks.  Furthermore, we re-organized the data set to see the relationship between the milk protein and the time to take the measurement:
+
+X : time to take weekly measurements (from 1 to 14).
+
+Y : protein content of the milk produced by each cow at time X.
+
+
+Group truth: 
+
+x --> y
+
+
+Remark:
+
+Here we do not consider the effect of the diets on the protein content.  Note that rigorously speaking, X, together with the diets, causes Y.
+
+The original data set is available at
+http://www.maths.lancs.ac.uk/Software/Oswald/
+
+
+Reference:
+A. P. Verbyla and B. R. CullisSource, "Modelling in Repeated Measures Experiments", Journal of the Royal Statistical Society. Series C (Applied Statistics), Vol. 39, No. 3(1990), pp. 341-356.

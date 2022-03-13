@@ -1,0 +1,9 @@
+/knowledge
+addtemporal
+
+1 cd3_cd28 icam2 aktinhib g0076 psitect u0126 ly pma b2camp
+2 raf mek plc pip2 pip3 erk akt pka pkc p38 jnk 
+
+forbiddirect
+
+requiredirect

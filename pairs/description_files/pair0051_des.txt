@@ -1,0 +1,14 @@
+Information for pairs0051:
+
+Daily mean values of ozone and temperature of year 2009 in Davos-See, Switzerland
+
+x: Ozone (microgram / cubic meter)
+
+y: Temperature (degree celsius)
+
+source:
+Bundesamt fuer Umwelt (BAFU, Switzerland)
+www.bafu.admin.ch/luft/luftbelastung/blick_zurueck/datenabfrage/index.html?lang=de
+
+ground truth:
+y --> x

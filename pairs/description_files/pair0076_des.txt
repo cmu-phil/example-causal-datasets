@@ -1,0 +1,16 @@
+Information for pair0076
+ 
+population growth and food consumption 
+ 
+data for 174 countries or areas, during the period from 1990-92 to 1995-97 (former 174 data points) and that from 1995-97 to 2000-02 (latter 174 points).  
+ 
+The data were taken from food security statistics provided by Food and Agriculture Organization of the United Nations (http://www.docstoc.com/docs/102679223/Food-consumption-and-population-growth---FAO);
+see http://www.fao.org/economic/ess/ess-fs/en/ .
+ 
+x (first column): the average annual rate of change of population;
+y (second column): the average annual rate of change of total dietary consumption for total population (kcal/day).
+
+Their difference (y-x) can be interpreted as the average annual rate of change of dietary energy consumption (kcal/person/day).
+
+Ground truth:
+x --> y

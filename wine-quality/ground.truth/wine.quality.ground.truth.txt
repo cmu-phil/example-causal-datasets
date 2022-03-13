@@ -1,0 +1,11 @@
+/knowledge
+addtemporal
+
+1  alcohol chlorides citric_acid density fixed_acidity free_sulfur_dioxide pH residual_sugar sulphates total_sulfur_dioxide volatile_acidity
+2  quality
+
+forbiddirect
+
+requiredirect
+alcohol quality
+total_sulfur_dioxide quality

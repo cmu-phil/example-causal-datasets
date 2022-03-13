@@ -1,0 +1,9 @@
+/knowledge
+addtemporal
+
+1  Dalc Fedu Fjob Medu Mjob Pstatus Walc absences activities address age failures famrel famsize famsup freetime goout guardian health higher internet nursery paid reason romantic school schoolsup sex studytime traveltime
+2  G1 G2 G3
+
+forbiddirect
+
+requiredirect

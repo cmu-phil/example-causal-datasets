@@ -1,0 +1,15 @@
+Information for pair0074:
+
+UNdata from http://data.un.org
+
+Gross national income (GNI) and life expectancy. 
+One can see the GNI per capita as an index how rich a country is. 
+The wealth of a country influences the qualtity of the health care system and thus indirectly the life expectancy of its citizens.
+
+x: GNI (Gross national income) per capita for different countries (in US$)
+
+y: life expectancy at birth for different countries
+
+
+ground truth:
+x --> y

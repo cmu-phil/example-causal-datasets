@@ -1,0 +1,40 @@
+Information for pair0052:
+
+x and y are 4-dimensional variables for day 51 resp. 50 of year 2000 on a 144x73 grid (2.5 degree).  The four dimensions are:
+
+x: year 2000, day 51
+y: year 2000, day 50
+
+1) Mean Daily Air temperature at sigma level 995 
+
+variable type: int16
+skalefactor: 0.00999999977648258
+add offset: 512.809997558594
+units: degK
+
+2) Mean Daily pressure at surface 
+
+variable type: int16
+skalefactor: 10
+add offset: 367650
+units: Pascal
+
+3) Mean Daily sea level pressure 
+
+variable type: int16
+add offset: 119765
+units: Pascal
+
+4) Mean Daily relative humidity at sigma level 995 
+
+variable type: int16
+add offset: 302.649993896484
+scale factor: 0.00999999977648258
+units: %
+
+Data source:
+http://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.surface.html
+
+
+ground truth:
+y --> x

@@ -1,0 +1,19 @@
+Information for pair0067:
+
+Financial data
+
+x:	stock returns of Cheung kong (0001.HK)
+
+y:	stock return of Sun Hung Kai Prop. (0016.HK)
+
+from Jan. 4, 2000 to Jun. 17, 2005. Data was obtained from the Yahoo finance database. Sun Hung Kai Prop. is a typical stock in the Hang Seng Property subindex, and is believed to depend on other majoy stocks.
+
+Remark: We calculated the above returns from the raw data in the following way.
+1. Extract the dividend/split adjusted closing price data from Yahoo Finance http://finance.yahoo.com/.
+2. For the few days when the price is not available, we use simple linear interpolation to estimate the price.  Consequently the two time series are aligned.
+3. For each stock, denote the closing price on day t by P_t, and the corresponding return is calculated by X_t = (P_t-P_{t-1 }) / P_{t-1 }.
+
+
+ground truth:
+x --> y
+

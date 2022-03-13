@@ -1,0 +1,13 @@
+Information for pair0096:
+
+x = temperature in degree celsius
+y = load: the total electricity consumption in a region of Turkey in "MWh"
+
+Source:
+
+The data come from a regional energy distributor in Turkey and was obtained from S. Armagan Tarim and Steve Prestwich on June 11 2015.
+
+Cold temperatures let people turn on the heating while hot temperatures might trigger them to turn on a fan or air conditioning. 
+Generally, temperature affects the use of electricity of humans, while energy consumptions does not directly influence temperature in a region.
+ 
+x --> y 

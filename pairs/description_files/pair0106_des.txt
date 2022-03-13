@@ -1,0 +1,18 @@
+Information for pair0106:
+
+Speed of an electric toy locomotive
+
+
+This is from an experiment where an electric toy locomotive (Maerklin) passes one round at different speeds, controlled by varyring voltage.
+The time required by the locomotive has been measured by a pair of light barriers.  The voltage has been varied by manually changing the control knob
+of a transformer and measured by the analog input of an Arduino after sending the electric AC voltage through a rectifier.  
+
+First column (x): time required for passing one round   
+
+Second column (y): electric voltage 
+
+
+The measurement has been performed by D. Janzing in February 2017.
+
+ground truth x <-- y
+

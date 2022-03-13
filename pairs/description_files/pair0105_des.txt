@@ -1,0 +1,21 @@
+Information for pair0105:
+
+Brightness of screen
+
+This is from an experiment that has been performed to generate an example of a cause-effect relation
+that is clearly unconfounded. Patches of size 3x3 pixel are randomly drawn from a fixed black and white image. The patch is then displayed
+as an image of size about several centimeter. A photo diode is placed several centimeter away from the screen at a position where the light intensity is dominated by the patch. 
+(More precisely, the light intensity is measured by the 
+Adafruit TSL2591 High Dynamic Range Digital Light Sensor connected to an Arduino microcontroler. 
+https://learn.adafruit.com/adafruit-tsl2591/wiring-and-test).
+pair0101 is based on the same experimental setting, but there the `patches' have size 1 x 1 pixel. 
+
+First column (x): pixel vector of grey values of the patch.
+
+Second column (y): light intensity seen by a photo diode placed several centimeters away from the screen.  
+
+
+The measurement has been performed by D. Janzing in August 2016.
+
+ground truth x --> y
+

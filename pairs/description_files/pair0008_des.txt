@@ -1,0 +1,35 @@
+Information for pairs0008:
+
+https://archive.ics.uci.edu/ml/datasets/Abalone
+
+1. Title of Database: Abalone data
+
+2. Sources:
+
+   (a) Original owners of database:
+	Marine Resources Division
+	Marine Research Laboratories - Taroona
+	Department of Primary Industry and Fisheries, Tasmania
+	GPO Box 619F, Hobart, Tasmania 7001, Australia
+	(contact: Warwick Nash +61 02 277277, wnash@dpi.tas.gov.au)
+
+   (b) Donor of database:
+	Sam Waugh (Sam.Waugh@cs.utas.edu.au)
+	Department of Computer Science, University of Tasmania
+	GPO Box 252C, Hobart, Tasmania 7001, Australia
+
+   (c) Date received: December 1995
+
+3. Attribute information:
+
+   Given is the attribute name, attribute type, the measurement unit and a
+   brief description.  
+
+	Name		Data Type	Meas.	Description
+	----		---------	-----	-----------
+x:	Rings		integer			+1.5 gives the age in years
+y:	Height		continuous	mm	with meat in shell
+
+
+Ground truth:
+x --> y

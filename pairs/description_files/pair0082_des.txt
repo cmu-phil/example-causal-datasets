@@ -1,0 +1,26 @@
+Information for pair0082:
+
+Fluxnet data
+
+The folder contains flux data where fluxes are net CO2 exchanges aggregated
+over night, and the temperature accordingly (from http://fluxnet.ornl.gov). 
+
+The site id is DE-Har
+Germany, Hartheim
+
+You have 365 values per site (one year).
+
+The night time CO2 is "respiration" the flux from the ecosystem to the
+atmosphere but no assumptions on flux partitioning!!! The price is high noise
+levels.
+
+x: Temperature in degree Celsius
+
+y: CO2 flux at night
+
+Pleases note that column 3 contains either NaN  if the data were filled,
+or 1 for credible values. 
+
+
+ground truth:
+x --> y

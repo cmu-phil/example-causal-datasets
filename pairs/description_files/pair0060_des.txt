@@ -1,0 +1,16 @@
+Information for pair0060:
+
+UNdata from http://data.un.org
+
+
+x:	life expectancy at birth for different countries, male, 2000-2005
+
+y:	latitude of the country's capital
+
+China, Russia and Canada were taken out.
+
+source:
+http://data.un.org/Data.aspx?d=GenderStat&f=inID%3a37
+
+ground truth:
+y --> x

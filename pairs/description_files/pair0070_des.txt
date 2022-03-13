@@ -1,0 +1,21 @@
+Information for pair0070:
+
+data taken from
+R. Armann and I.Buelthoff, 2010,
+in preparation
+MPI for Biological Cybernetics, Tuebingen, Germany
+ 
+
+Discrete data:
+
+Artificial faces were shown and varied between male and female.
+People had to say if it is male or female.
+
+The variables are:
+
+X = par (between 0 and 14, 0 -> very female, 14 -> very male)
+
+Y = sex_guess (0: female or 1: male, the subject's guess)
+
+ground truth:
+x --> y

@@ -1,0 +1,12 @@
+{
+    "domains": [
+        {
+            "name": "fnlwgt",
+            "discrete": false
+        },
+        {
+            "name": "educ-num",
+            "discrete": false
+        }
+    ]
+}

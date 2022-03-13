@@ -1,0 +1,16 @@
+x = average precipitation over 1948 to 2004 in mm/day
+y = average runoff in over 1948 to 2004 mm/day
+
+Precipitation and runoff data over 438 river catchments in the US. We deleted 6 catchments where runoff data had missing values. 
+Daily values were downloaded and averaged over the whole available time period (1948-2004).
+
+Source:
+
+"MOPEX" data set (http://www.nws.noaa.gov/ohd/mopex/mo_datasets.htm)
+
+Data can be downloaded from ftp://hydrology.nws.noaa.gov/pub/gcip/mopex/US_Data/Us_438_Daily/
+
+
+Common sense tells us that precipitation is the largest driver of runoff with some confounders such as catchment characteristics.
+ 
+x --> y

@@ -1,0 +1,50 @@
+Information for pair0071:
+
+Data was taken from the UCI repository
+http://archive.ics.uci.edu/ml/datasets/Acute+Inflammations
+
+Jacek Czerniak, Ph.D., Assistant Professor
+Systems Research Institute
+Polish Academy of Sciences
+Laboratory of Intelligent Systems
+ul. Newelska 6, Room 218
+01-447 Warszawa, Poland
+e-mail: jacek.czerniak '@' ibspan.waw.pl or jczerniak '@' ukw.edu.pl 
+ 
+Acute inflammation of urinary bladder is characterised
+by sudden occurrence of pains in the abdomen region and the urination in form of
+constant urine pushing, micturition pains and sometimes lack of urine keeping.
+Temperature of the body is rising, however most often not above 38C. The excreted
+urine is turbid and sometimes bloody. At proper treatment, symptoms decay usually
+within several days. However, there is inclination to returns. At persons with acute
+inflammation of urinary bladder, we should expect that the illness will turn into
+protracted form.
+
+Acute nephritis of renal pelvis origin occurs considerably more often at women than at
+men. It begins with sudden fever, which reaches, and sometimes exceeds 40C. The fever
+is accompanied by shivers and one- or both-side lumbar pains, which are sometimes very
+strong. Symptoms of acute inflammation of urinary bladder appear very often. Quite not
+infrequently there are nausea and vomiting and spread pains of whole abdomen.
+
+The data was created by a medical expert as a data set to test the expert system, which
+will perform the presumptive diagnosis of two diseases of urinary system. 
+Each instance represents an potential patient. 
+
+Discrete and logical data:
+1 = yes, 2 = no
+
+X is 6-dimensional
+1 	Temperature of patient { 35C-42C } 
+2 	Occurrence of nausea 
+3 	Lumbar pain
+4 	Urine pushing (continuous need for urination)
+5 	Micturition pains
+6 	Burning of urethra, itch, swelling of urethra outlet
+
+Y is 2-dimensional
+7	decision: Inflammation of urinary bladder
+8 	decision: Nephritis of renal pelvis origin 
+
+
+ground truth:
+x --> y

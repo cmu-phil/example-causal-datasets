@@ -1,0 +1,10 @@
+/knowledge
+addtemporal
+
+1  Age DiabetesPedigreeFunction Pregnancies SkinThickness
+2  BMI BloodPressure Glucose Insulin
+3  Outcome
+
+forbiddirect
+
+requiredirect

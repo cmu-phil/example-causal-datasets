@@ -1,0 +1,11 @@
+x = Organic C content in soil (in g Carbon/kg)
+y = Clay content (in g/kg)
+
+Data taken from 150 forest plots. Plots with missing data were excluded.
+
+The clay content in a soil is one determinant of how much carbon can be accumulated in a soil.
+
+Reference:
+Solly et al (2014). Factors controlling decomposition rates of fine root litter in temperate forests and grasslands. Plant and Soil, 382(1-2), 203-218.
+
+y --> x

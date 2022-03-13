@@ -1,0 +1,12 @@
+Information for pair0095:
+
+x = hour of the day
+y = load: the total electricity consumption in a region of Turkey in "MWh"
+
+Source:
+
+The data come from a regional energy distributor in Turkey and was obtained from S. Armagan Tarim and Steve Prestwich on June 11 2015.
+
+The hour of the day defines what people usually do, if they are sleeping, cooking, watching TV etc. Hence the energy consumption is driven by the hour of the day.
+ 
+x --> y 

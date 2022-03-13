@@ -1,0 +1,9 @@
+/knowledge
+addtemporal
+
+1  age height gender weight device activity
+2  calories corr_heart_steps distance entropy_heart entropy_steps heart_rate norm_heart resting_heart sd_norm_heart steps steps_times_distance
+
+forbiddirect
+
+requiredirect

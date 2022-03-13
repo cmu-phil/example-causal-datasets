@@ -1,0 +1,19 @@
+Information for pair0077:
+
+Note: X and Y are actually time series with time step 1 day 
+
+Y is the solar radiation in W/m^2 measured in Furtwangen, Black Forest, Germany, by Bernward Janzing.
+Each value is the daily average of one day between January 1, 1985 and December 31, 2008.
+
+X is the daily average temperature of the air measured at the same location and the same days.
+
+The data are taken from a larger data set containing solar radiation averages from November 24, 1985 to December 31, 2008
+and temperature values from January 1, 1979 to  December 31, 2008.
+The original files have been provided by Bernward Janzing and processed by Dominik Janzing to extract the common time interval.
+
+Ground truth y --> x
+
+
+
+
+

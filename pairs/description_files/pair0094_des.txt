@@ -1,0 +1,12 @@
+Information for pair0094:
+
+x = hour of the day
+y = temperature in degree celsius
+
+Source:
+
+The data come from a regional energy distributor in Turkey and was obtained from S. Armagan Tarim and Steve Prestwich on June 11 2015.
+
+Common sense tells us that temperature depends on the hour of the day.
+ 
+x --> y 

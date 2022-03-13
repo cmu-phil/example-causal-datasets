@@ -1,0 +1,10 @@
+/knowledge
+addtemporal
+
+1*  Chord Attack Velocity
+2  Frequency Displacement
+3  Pressure
+
+forbiddirect
+
+requiredirect

@@ -1,0 +1,15 @@
+Information for pair0075:
+
+UNdata from http://data.un.org
+
+Gross national income (GNI) and life expectancy. 
+One can see the GNI per capita as an index how rich a country is. 
+The wealth of a country influences the qualtity of the health care system and thus indirectly the mortality rate of its children.
+
+
+x: under 5 mortality rate for different countries (deaths per 1000 live births)
+
+y: GNI (Gross national income) per capita for different countries (in US$)
+
+ground truth:
+y --> x

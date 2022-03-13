@@ -1,0 +1,21 @@
+Information for pair 108:
+
+This pair shows the dependence of the inverse velocity and the temperature of the heat bath of a Striling engine. The engine is
+driven by a cup of hot water that is put underneath.
+The inverse velocity is measured by the time needed for the engine's wheel for 1/6 rotation (because the wheel has 6 radius arms). 
+The temperature is measured by a sensor that was put into the cup. 
+
+
+
+First column (x): time for 1/6 rotation
+
+Second column (y): temperature in Degree Celsius
+
+The data set has been recorded by Dominik Janzing in 2017
+
+
+ground truth x <-- y
+
+
+
+

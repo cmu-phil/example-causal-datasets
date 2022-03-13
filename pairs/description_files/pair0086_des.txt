@@ -1,0 +1,8 @@
+First column:  size in m^2 of appartment/room
+Second column: monthly rent in EUR
+
+Data from kamernet.nl, gathered by Joris Mooij in 2007
+
+UPDATE v1.0: We removed two instances, with respectively size == 0 and rent == 1
+
+x --> y

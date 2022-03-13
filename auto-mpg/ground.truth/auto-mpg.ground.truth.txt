@@ -1,0 +1,12 @@
+/knowledge
+addtemporal
+
+1  modelyear origin weight
+2  cylinders
+3  displacement
+4  horsepower
+5  acceleration mpg
+
+forbiddirect
+
+requiredirect

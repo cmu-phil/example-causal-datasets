@@ -1,0 +1,26 @@
+x = age
+y = Relative Spinal bone mineral density
+
+Source:
+
+"bone" data set from http://cran.r-project.org/web/packages/ElemStatLearn/ElemStatLearn.pdf
+
+We obtained and preprocessed the data using the following R commands:
+
+install.packages('ElemStatLearn')
+library(ElemStatLearn)
+boneuniq = bone[1,]
+for( i in 2:dim(bone)[1] ) { 
+  if( bone[i,1] != bone[i-1,1] ) { 
+    boneuniq <- rbind(boneuniq,bone[i,])
+  } 
+}
+write.table(boneuniq[,c(2,4)],file='/tmp/bone.csv',row.names=FALSE,col.names=FALSE)
+remove.packages('ElemStatLearn')
+
+For the preprocessing, we only take the first measurement for each child, and 
+selected only the columns "age" and "spnbmd" (Relative Change in Spinal BMD).
+
+The ground truth should be that age causes relative change in spinal BMD.
+
+x --> y

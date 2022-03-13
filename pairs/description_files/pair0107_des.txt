@@ -1,0 +1,20 @@
+Information for pair0107:
+
+Direction of Gabor patches
+
+The data set is from a psychophysics experiments with human subjects. A screen shows tilted Gabor patches (which are patterns of stripes
+frequently used as stimuli in psychological experiments), either tilted to the left or to the right. The subject are asked to infer the direction, while the patches are shown with stronger or weaker contrast. The variable X describes the contrast values ranging from 0.0150 to 0.0500 in steps of 0.0025. The variable Y is a binary indicating whether the direction has been identified correctly (Y=1) or not (Y=0). For low values of the contrast the fraction of correct decisions approaches chance level (50%).
+
+
+First column (x): contrast
+
+Second column (y): answer correct or not
+
+The data set has been recorded by Heiko Schütt in 2014. 
+
+
+ground truth x --> y
+
+
+
+
