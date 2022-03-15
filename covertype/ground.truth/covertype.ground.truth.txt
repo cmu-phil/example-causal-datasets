@@ -1,9 +1,9 @@
 /knowledge
 addtemporal
 
-1  Aspect Elevation Horiz-Fire Horiz-hydr Horiz-road Slope Vert-hydr
-2  Shade12 Shade3 Shade9
-3  Type
+1  Aspect Elevation Slope
+2  Horiz-Fire Horiz-hydr Horiz-road  Vert-hydr
+3  Shade12 Shade3 Shade9 Type
 
 forbiddirect
 
