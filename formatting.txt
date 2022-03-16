@@ -5,7 +5,7 @@ follows:
 1. All tabular data files are tab-delimited, with the names of the variables in
 the first row, and with one row per case after that. Names of tabular files will
 end with ".txt". Columns in tabular files may be either continuous,
-discrete, or mixed. Continuous data will have the word "continuous" it the
+discrete, or mixed. Continuous data will have the word "continuous" in the
 filename, thus:
 
 mydata.continuous.txt
