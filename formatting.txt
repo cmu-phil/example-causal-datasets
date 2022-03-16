@@ -52,7 +52,7 @@ x b
 
 ...
 
-Here, edges from later tiers to earlier tiers are forbidden, additional directed
+Here, edges from later tiers to earlier tiers are forbidden; additional directed
 edges may be specified in the "forbiddirect" and "requiredirect" sections. For
 example, "alcohol density" in the forbiddirect section means that the edge
 alcohol-->density is forbidden; similar comment applies to the specifications in
