@@ -30,7 +30,7 @@ lower triangle of the covariance matrix to follow, in tab-delimited rows of
 increasing length up to the number of variables. Names of covariance matrix
 files will end with ".cov.txt", thus:
 
-mycov.cov.txt
+mydata.cov.txt
 
 3. Missing values are marked uniformly with an asterisk, thus: *.
 
