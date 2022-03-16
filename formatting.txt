@@ -1,4 +1,4 @@
-An effort is made to render most of the datasets and knowledge easy to
+An effort has been made to render most of the datasets and knowledge easy to
 import automtically, with consistent formatting and naming conventions, as
 follows:
 
