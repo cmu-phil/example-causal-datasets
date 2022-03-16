@@ -47,8 +47,8 @@ forbiddirect
 w z
 
 requiredirect
- a b
- x b
+a b
+x b
 
 ...
 
