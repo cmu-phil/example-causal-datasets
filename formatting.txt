@@ -19,7 +19,8 @@ continuous. This maximum number is specified in the filename, thus, for example:
 
 mydata.mixed.maximum.3.txt
 
-for c = 3.
+for c = 3. In some cases, this advice is insufficient; for these, a JSON file
+is available to use for importing the data, in a format to be specified.
 
 2. Covariance matrices are rendered in lower triangle, with the sample size
 in the first row, the list of variables in the second row, tab-delimited,
