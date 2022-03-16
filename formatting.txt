@@ -64,8 +64,13 @@ such cases, a graph may be specified as follows, for example:
 
 Graph Nodes: raf;mek;plc;pip2;pip3;erk;akt;pka;pkc;p38;jnk
 
-Graph Edges: 1. erk --> akt 2. mek --> erk 3. pip2 --> pkc 4. pip3 --> akt 5.
-pip3 --> pip2 6. pip3 --> plc ...
+Graph Edges:
+1. erk --> akt
+2. mek --> erk
+3. pip2 --> pkc
+4. pip3 --> akt
+5. pip3 --> pip2
+6. pip3 --> plc ...
 
 Here, the section "Graph Nodes:" is followed by a comma or semicolon separated
 list of variable names, and the "Graph Edges" section is followed by an
