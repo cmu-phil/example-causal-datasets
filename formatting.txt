@@ -1,6 +1,6 @@
-An effort has been made to render most of the datasets and knowledge easy to
-import automtically, with consistent formatting and naming conventions, as
-follows:
+An effort has been made to render most of the datasets and knowledge in this
+repository easy to import automtically, with consistent formatting and naming
+conventions, as follows:
 
 1. All tabular data files are tab-delimited, with the names of the variables in
 the first row, and with one row per case after that. Names of tabular files will
