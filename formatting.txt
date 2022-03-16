@@ -43,9 +43,12 @@ addtemporal
 1*  x y z
 2  w r
 
-forbiddirect w z
+forbiddirect
+w z
 
-requiredirect a b x b
+requiredirect
+ a b
+ x b
 
 ...
 
