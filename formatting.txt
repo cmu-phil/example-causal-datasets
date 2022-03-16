@@ -57,7 +57,7 @@ the requiredirect section. If a tier number is followed by an asterisk, this
 means that edges within that tier are all forbidden. Ground truth files specified
 in this way will have the suffix ".ground.truth.txt", thus:
 
-mytruth.ground.truth.txt
+mytruth.knowledge.txt
 
 5. In some cases, a specific ground truth DAG is known, as in simulation. In
 such cases, a graph may be specified as follows, for example:
