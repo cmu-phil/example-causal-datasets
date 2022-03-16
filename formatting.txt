@@ -1,0 +1,80 @@
+An effort is made to render the datasets and knowledge for this repository
+using consistent formatting guidelines, as follows:
+
+1. All tabular data files are tab-delimited, with the names of the variables
+in the first row, and with one row per case after that. Names of tabular files
+will end with ".data.txt". Columns in tabular files may be either continuous,
+discrete, or mixed. Continuous data will have the word "continuous" it the
+filename, thus:
+
+mydata.continuous.txt
+
+Discrete data will have the word "discrete" in the filename, thus:
+
+mydata.discrete.txt
+
+For mixed data, it will be assumed that columns with less than or equal to
+a specified maximum number of distinct values c will be discrete, other columns being
+continuous. This maximum number is specified in the filename, thus, for example:
+
+mydata.mixed.maximum.3.txt
+
+for c = 3.
+
+2. Covariance matrices are rendered in lower triangle, with the sample size
+in the first row, the list of variables in the second row, tab-delimited,
+and the lower triangle of the covariance matrix to follow, in tab-delimited
+rows of increasing length up to the number of variables. Names of covariance
+matrix files will end with ".cov.txt", thus:
+
+mycov.cov.txt
+
+3. Missing values are marked uniformly with an asterisk, thus: *.
+
+4. All ground truth knowledge for specific forbidden and required edges will be
+represented in the following format, for example:
+
+/knowledge
+addtemporal
+
+1  x y z
+2  w r
+
+forbiddirect
+w z
+
+requiredirect
+a b
+x b
+
+...
+
+Here, edge from later tiers to earlier tiers are forbidden, additional directed edges may be
+specified in the "forbiddirect" and "requiredirect" sections. For example, "alcohol density"
+in the forbiddirect section means that the edge alcohol-->density is forbidden; similar
+comment applies to the specifications in the requiredirect section. Ground truth files
+specified in this way will have the suffix ".ground.truth.txt", thus:
+
+mytruth.ground.truth.txt
+
+5. In some cases, a specific ground truth DAG is known, as in simulation. In such cases,
+a graph may be specified as follows, for example:
+
+Graph Nodes:
+raf;mek;plc;pip2;pip3;erk;akt;pka;pkc;p38;jnk
+
+Graph Edges:
+1. erk --> akt
+2. mek --> erk
+3. pip2 --> pkc
+4. pip3 --> akt
+5. pip3 --> pip2
+6. pip3 --> plc
+...
+
+Here, the section "Graph Nodes:" is followed by a comma or semicolon separated list of
+variable names, and the "Graph Edges" section is followed by an optionally numbered
+list of edges in form X --> Y (for a DAG). Such ground truth graphs will be in files
+with the suffix ".ground.truth.graph.txt", thus:
+
+mytruegraph.ground.truth.graph.txt
