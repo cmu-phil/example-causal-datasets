@@ -1,6 +1,5 @@
 # example-causal-datasets
-Example datasets formatted consistently with ground truth for purposes of causal analysis
-
+Example datasets formatted consistently with ground truth for purposes of causal analysis.
 Formating conventions are here:
 
 https://github.com/cmu-phil/example-causal-datasets/blob/main/formatting.txt
