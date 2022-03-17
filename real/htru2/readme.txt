@@ -1,7 +1,5 @@
 https://archive.ics.uci.edu/ml/datasets/HTRU2
 
-The variables in the data follow statlib:
-
 C1. Mean of the integrated profile.
 C2. Standard deviation of the integrated profile.
 C3. Excess kurtosis of the integrated profile.
