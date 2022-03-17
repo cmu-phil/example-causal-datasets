@@ -1,0 +1,9 @@
+/knowledge
+addtemporal
+
+1  Fire Region day month year
+2  BUI DC DMC FFMC FWI ISI RH Rain Temperature Ws
+
+forbiddirect
+
+requiredirect
