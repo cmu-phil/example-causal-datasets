@@ -1,0 +1,10 @@
+/knowledge
+addtemporal
+
+1  pulsar
+2  ip_kurt ip_mean ip_sd ip_skew snr_kurt snr_mean snr_sd snr_skew
+3 
+
+forbiddirect
+
+requiredirect
