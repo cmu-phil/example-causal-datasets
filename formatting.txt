@@ -83,3 +83,39 @@ optionally numbered list of edges in form X --> Y (for a DAG). Such ground truth
 graphs will be in files with the suffix ".ground.truth.graph.txt", thus:
 
 mydata.ground.truth.graph.txt
+
+6. A certain directory structure has been has been used which seems fortuitous.
+First, the highest level directories have been sorted into 'real' and 'simulated';
+'real' contains all real datasets; 'simulated' all simulated datasets. One
+important difference is that for simulated data, ground truth is known for
+certain, whereas for real data, there is some rationale needed to infer ground
+truth, either time order, or expertise, or probably the best, basis in
+actual experimental results.
+
+Inside each directory, example datasets are presented in each subdirectory, with
+subdirectories of those being 'data', 'ground.truth', and 'images'. Ground truth
+is not always known, so this directory may be empty. If a data set
+
+mydata.xxx.txt
+
+is given in the data directory, and
+
+mydata.knowledge.txt
+
+or
+
+mydata.ground.truth.graph.txt
+
+is given, these are ground truth files for that dataset. If ground truth is
+given in some other format, it will have a different filename from these.
+
+The 'images' dataset contains, for instance, plot matrices of the data or
+other images.
+
+Also, for each example, a 'readme.txt' file is given with a reference
+back to the original source of the data, and possibly, where hard to easily
+retrieve from that reference, information about the variables in the dataset.
+As this repository is not meant to be a replacement for the original data
+sources but rather a consistent formatting of the data from those original
+data sources, extensive notes are not usually included here, and the user
+is encouraged to explore the original sources.
