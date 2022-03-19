@@ -4,9 +4,8 @@ conventions, as follows:
 
 1. All tabular data files are tab-delimited, with the names of the variables in
 the first row, and with one row per case after that. Names of tabular files will
-end with ".txt". Columns in tabular files may be either continuous,
-discrete, or mixed. Continuous data will have the word "continuous" in the
-filename, thus:
+end with ".txt". Columns in tabular files may be either continuous, discrete, or
+mixed. Continuous data will have the word "continuous" in the filename, thus:
 
 mydata.continuous.txt
 
@@ -57,8 +56,8 @@ edges may be specified in the "forbiddirect" and "requiredirect" sections. For
 example, "alcohol density" in the forbiddirect section means that the edge
 alcohol-->density is forbidden; similar comment applies to the specifications in
 the requiredirect section. If a tier number is followed by an asterisk, this
-means that edges within that tier are all forbidden. Ground truth files specified
-in this way will have the suffix ".ground.truth.txt", thus:
+means that edges within that tier are all forbidden. Ground truth files
+specified in this way will have the suffix ".ground.truth.txt", thus:
 
 mydata.knowledge.txt
 
@@ -84,13 +83,13 @@ graphs will be in files with the suffix ".ground.truth.graph.txt", thus:
 
 mydata.ground.truth.graph.txt
 
-6. A certain directory structure has been has been used which seems fortuitous.
-First, the highest level directories have been sorted into 'real' and 'simulated';
+6. A certain directory structure has been used which seems fortuitous. First,
+the highest level directories have been sorted into 'real' and 'simulated';
 'real' contains all real datasets; 'simulated' all simulated datasets. One
 important difference is that for simulated data, ground truth is known for
 certain, whereas for real data, there is some rationale needed to infer ground
-truth, either time order, or expertise, or probably the best, basis in
-actual experimental results.
+truth, either time order, or expertise, or (probably the best) basis in actual
+experimental results.
 
 Inside each directory, example datasets are presented in each subdirectory, with
 subdirectories of those being 'data', 'ground.truth', and 'images'. Ground truth
@@ -109,13 +108,13 @@ mydata.ground.truth.graph.txt
 is given, these are ground truth files for that dataset. If ground truth is
 given in some other format, it will have a different filename from these.
 
-The 'images' dataset contains, for instance, plot matrices of the data or
-other images.
+The 'images' dataset contains, for instance, plot matrices of the data or other
+images.
 
-Also, for each example, a 'readme.txt' file is given with a reference
-back to the original source of the data, and possibly, where hard to easily
-retrieve from that reference, information about the variables in the dataset.
-As this repository is not meant to be a replacement for the original data
-sources but rather a consistent formatting of the data from those original
-data sources, extensive notes are not usually included here, and the user
-is encouraged to explore the original sources.
+Also, for each example, a 'readme.txt' file is given with a reference back to
+the original source of the data, and possibly, where hard to easily retrieve
+from that reference, information about the variables in the dataset. As this
+repository is not meant to be a replacement for the original data sources but
+rather a consistent formatting of the data from those original data sources,
+extensive notes are not usually included here, and the user is encouraged to
+explore the original sources.
