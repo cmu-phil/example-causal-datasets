@@ -1,4 +1,4 @@
-Rented Bike Count	Hour	Temperature(C)	Humidity(%)	Wind_speed (m/s)	Visibility_(10m)	Dew_point temperature(C)	Solar_Radiation(MJ/m2)	Rainfall(mm)	Snowfall(cm)	Seasons	Holiday	Functioning_Day
+Rented_Bike_Count	Hour	Temperature(C)	Humidity(%)	Wind_speed (m/s)	Visibility_(10m)	Dew_point temperature(C)	Solar_Radiation(MJ/m2)	Rainfall(mm)	Snowfall(cm)	Seasons	Holiday	Functioning_Day
 254	0	-5.2	37	2.2	2000	-17.6	0	0	0	Winter	No Holiday	Yes
 204	1	-5.5	38	0.8	2000	-17.6	0	0	0	Winter	No Holiday	Yes
 173	2	-6	39	1	2000	-17.7	0	0	0	Winter	No Holiday	Yes
