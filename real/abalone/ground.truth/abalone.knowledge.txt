@@ -4,8 +4,13 @@ addtemporal
 1  Rings Sex
 2  ShkW ShlW VisW
 3  WhW
-4  Diam Hei Len
 
 forbiddirect
+Diam Sex
+Len Sex
+Hei Sex
+Diam Rings
+Len Rings
+Hei Rings
 
 requiredirect
