@@ -13,12 +13,13 @@ Graph Edges:
 9. pka --> jnk
 10. pka --> mek
 11. pka --> p38
-12. pkc --> jnk
-13. pkc --> mek
-14. pkc --> p38
-15. pkc --> pka
-16. pkc --> raf
-17. plc --> pip2
-18. plc --> pkc
-19. raf --> mek
+12. pka --> raf
+13. pkc --> jnk
+14. pkc --> mek
+15. pkc --> p38
+16. pkc --> pka
+17. pkc --> raf
+18. plc --> pip2
+19. plc --> pkc
+20. raf --> mek
 
