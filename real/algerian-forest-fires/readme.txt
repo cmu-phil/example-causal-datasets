@@ -1,4 +1,4 @@
-https://archive.ics.uci.edu/ml/datasets/Algerian+Forest+Fires+Dataset++
+https://archive.ics.uci.edu/dataset/547/algerian+forest+fires+dataset
 
 For some ground truth:
 
