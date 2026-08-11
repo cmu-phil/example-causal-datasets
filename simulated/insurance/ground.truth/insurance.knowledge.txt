@@ -1,0 +1,10 @@
+/knowledge
+addtemporal
+
+1  age sex
+2  region bmi smoker children
+3  charges
+
+forbiddirect
+
+requiredirect
