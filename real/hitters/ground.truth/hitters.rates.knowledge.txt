@@ -1,0 +1,11 @@
+/knowledge
+addtemporal
+
+0 Years League Division PutOuts Assists Errors
+1 PAtBat PAvg PHRrate PBBrate PRBIrate PRunsRate
+2 AtBat Avg HRrate BBrate RBIrate RunsRate
+3 LogSalary NewLeague
+
+forbiddirect
+
+requiredirect
