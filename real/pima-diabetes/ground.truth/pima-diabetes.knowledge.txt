@@ -1,9 +1,10 @@
 /knowledge
 addtemporal
 
-1  Age DiabetesPedigreeFunction Pregnancies SkinThickness
-2  BMI BloodPressure Glucose Insulin
-3  Outcome
+1  Age DiabetesPedigreeFunction
+2  Pregnancies
+3  BMI BloodPressure Glucose Insulin SkinThickness
+4  Outcome
 
 forbiddirect
 
